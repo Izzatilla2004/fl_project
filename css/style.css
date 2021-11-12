@@ -199,3 +199,69 @@ header {
 footer {
     margin-bottom: 100px;
 }
+
+@media (max-width:768px) {
+    .container {
+        max-width: 95%;
+    }
+    .navbar img {
+        max-width: 55%;
+    }
+    .navbar h1 {
+        width: 37%;
+        font-size: 23px;
+        line-height: 31px;
+        color: #44B750;
+    }
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+        align-items: start;
+    }
+    .navbar h1 {
+        width: auto;
+    }
+    .navbar img {
+        max-width: 95%;
+    }
+    .img-text {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-text {
+        margin-top: 10px;
+    }
+    .info-text h2 {
+        text-align: center;
+    }
+    .info-text p {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .contacts-people {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .aleksey {
+        margin-top: 15px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .last {
+        flex-direction: column;
+    }
+    .last img {
+        width: 95%;
+        margin-bottom: 5px;
+    }
+    .red h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .gradient h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
